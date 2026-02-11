@@ -5,7 +5,7 @@ import { router } from "expo-router";
 import { RefreshControl } from "react-native";
 
 
-const GOOGLE_API_KEY = "AIzaSyBCHc-PI7Oi0eKo78q3i7Zu69FK-pc6tck";
+const GOOGLE_API_KEY = process.env.EXPO_PUBLIC_GOOGLE_API_KEY;
 const BACKEND_URL = "https://bar-seat-backend.onrender.com";
 
 export default function HomeScreen() {
